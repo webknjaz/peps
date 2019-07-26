@@ -9,9 +9,7 @@ cache: pip
 before_install:
     - pip install docutils
 script:
-    - make -j8
-after_script:
-    - nproc
+    - make -j$(nproc)
 
 deploy:
     provider: script
