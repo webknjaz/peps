@@ -2,7 +2,7 @@ language: python
 python:
   - 3.7
   - 3.7-dev
-dist: bionic
+dist: minimal
 
 cache: pip
 
